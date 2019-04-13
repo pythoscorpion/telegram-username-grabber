@@ -3,7 +3,7 @@
 telegram cli app based on telethon python library. it's listening to special username that is already taken by another person to be released and immediately set it on your own telegram account.
 
 
-# usage:
+# usage
 
 first install telethon 
 
