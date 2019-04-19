@@ -5,10 +5,11 @@ telegram cli app based on telethon python library. it's listening to special use
 
 # usage
 
-first install telethon 
+first install telethon and requests
 
 ```
   pip3 install telethon
+  pip install requests
 ```  
   
 then get your own api_id and api_hash from [telegram](https://my.telegram.org) and put them in the source code.
