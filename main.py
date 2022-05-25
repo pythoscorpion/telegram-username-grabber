@@ -17,7 +17,7 @@ def check_username():
     while True:
         r = requests.get('https://t.me/' + new_username)
 
-        if 'https://telegram.org/img/t_logo.png' in r.text:
+        if 'tgme_action_button_new shine' in r.text:
             time1 = time.time()
             state = True
             break
